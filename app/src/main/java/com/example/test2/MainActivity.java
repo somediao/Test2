@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Bmob.initialize(this,"fd0969d70fab5bfe9eec83ec25aa0097");
+        findViewById(R.id.viewpager_show);
     }
 
     public void save(View view) {
